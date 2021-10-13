@@ -39,11 +39,13 @@ if ch == "Guide":
     st.markdown(a, unsafe_allow_html=True)
 
     st.markdown('<center><h3>EXAMPLE<h3></center>', unsafe_allow_html=True)
-    image = Image.open('2021-10-12.png')
+    image = Image.open('example.png')
     st.image(image, use_column_width=True)
-
+    st.write("Written and managed by Ho Manh Thang on October 13,2021")
+    st.write("GitHub: https://github.com/homata123")
+    st.write("FB: https://www.facebook.com/manhthangcttine/")
 elif ch == "Start using app":
-    st.markdown('<center><h3>TCS app by Manh Thang Ho<h3></center>', unsafe_allow_html=True)
+    st.markdown('<center><h3>Just choose your file and your number<h3></center>', unsafe_allow_html=True)
     sentences = []
     uploaded_file = st.file_uploader("Add text file !",type=["txt"])
     true_sentences=""
