@@ -6,7 +6,7 @@ A local web app used for correcting and summarizing input text
 
 **How to use**
 
-You can run this web app by 2 ways
+You can run this web app by 2 ways (I recommend you for the 2nd way)
 
 1. Run directly on web
 
@@ -28,7 +28,7 @@ Note: Streamlit web server sometimes encounters errors,you just need to reload p
 
 -Running "streamlit run gui.py" in terminal" (If this is your first time using streamlit,you will need to login by email)
 
-**Note**: Make sure your txt file has same format and structure like file sharapova.txt ( Has just 1 line,if yours has more lines-please turn it into 1 line-txt file)
+**Note**: Make sure your txt file has the same format and structure as file sharapova.txt ( Has just 1 line,if yours has more lines-please turn it into 1 line-txt file)
 
 **Contact me for more info**
 
