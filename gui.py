@@ -7,7 +7,7 @@ import nltk
 import PIL.Image
 from PIL import Image
 import correct_module
-
+nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
 
 
