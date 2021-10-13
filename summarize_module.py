@@ -5,7 +5,7 @@ import nltk
 #nltk.download('stopwords')
 import re
 from nltk.corpus import stopwords
-import sklearn
+import scikit-learn as sklearn
 
 
 
