@@ -28,6 +28,7 @@ Note: Streamlit web server sometimes encounters errors,you just need to reload p
 
 -Running "streamlit run gui.py" in terminal" (If this is your first time using streamlit,you will need to login by email)
 
+**Note**: Make sure your txt file has same format and structure like file sharapova.txt ( Has just 1 line,if yours has more lines-please turn it into 1 line-txt file)
 
 **Contact me for more info**
 
