@@ -46,7 +46,7 @@ if ch == "Guide":
     st.write("GitHub: https://github.com/homata123")
     st.write("FB: https://www.facebook.com/manhthangcttine/")
 elif ch == "Start using app":
-    st.markdown('<center><h3>Just choose your file and your number<h3></center>', unsafe_allow_html=True)
+    st.markdown('<center><h3>Choose .txt file has 1 line,if it has more lines,please turn it into 1 line<h3></center>', unsafe_allow_html=True)
     sentences = []
     uploaded_file = st.file_uploader("Add text file !",type=["txt"])
     true_sentences=""
@@ -68,8 +68,10 @@ elif ch == "Start using app":
         number_of_sentences = st.number_input('Input number of summary sentences', min_value=1, max_value=len(original_sentences[0]),value=1,step=1)
         st.warning("Wrong words suggested :   " +str(correct_module.correct(true_sentences)[0]))
         st.success("Corrected words suggested :   " +str(correct_module.correct(true_sentences)[1]))
-        st.write("Summary")
-        st.write(summarize_module.summarize(true_sentences,number_of_sentences))
+        summit_number=st.button("Start summarize")
+        if summit_number:
+            st.write("Summary")
+            st.write(summarize_module.summarize(true_sentences,number_of_sentences))
         
         
         
