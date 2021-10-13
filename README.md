@@ -10,11 +10,11 @@ You can run this web app by 2 ways
 
 1. Run directly on web
 
--Copy this repo link (https://github.com/homata123/Correct-and-Summarizing-text-app.git)
+-Fork this repo to your GitHub (https://github.com/homata123/Correct-and-Summarizing-text-app.git) 
 
 -Go to https://share.streamlit.io/ ,sign in and choose "New app"
 
--Paste the link into the repo section
+-Paste the forked repo link into the repo section,then choose "main" branch and gui.py for GUI
 
 -Wait for installing modules and packages,then start using this app
 
