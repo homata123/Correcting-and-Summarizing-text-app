@@ -8,6 +8,7 @@ import PIL.Image
 from PIL import Image
 import correct_module
 nltk.download('punkt')
+nltk.download('stopwords')
 from nltk.tokenize import sent_tokenize
 
 
