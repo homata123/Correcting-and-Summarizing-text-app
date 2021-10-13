@@ -39,7 +39,7 @@ if ch == "Guide":
     st.markdown(a, unsafe_allow_html=True)
 
     st.markdown('<center><h3>EXAMPLE<h3></center>', unsafe_allow_html=True)
-    image = Image.open('example.png')
+    image = Image.open('example.PNG')
     st.image(image, use_column_width=True)
     st.write("Written and managed by Ho Manh Thang on October 13,2021")
     st.write("GitHub: https://github.com/homata123")
