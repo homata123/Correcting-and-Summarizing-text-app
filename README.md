@@ -1,6 +1,9 @@
 # Correct-and-Summarizing-text-app
 A local web app used for correcting and summarizing input text
 
+![example](https://user-images.githubusercontent.com/46078489/137065834-f49b8294-9f09-42e2-8ca3-cbf4aee60c2e.PNG)
+
+
 **How to use**
 
 You can run this web app by 2 ways
