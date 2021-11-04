@@ -26,6 +26,8 @@ Note: Streamlit web server sometimes encounters errors,you just need to reload p
 
 -Installing necessary modules and packages by running "pip install -r requirements.txt" in terminal
 
+-Install necessary nltk packages as: nltk.download('punkt'), nltk.download('stopwords') 
+
 -Running "streamlit run gui.py" in terminal" (If this is your first time using streamlit,you will need to login by email)
 
 **Note**: If you run this app on Streamlit-make sure your txt file has the same format and structure as file sharapova.txt ( Has just 1 line,if yours has more lines-please turn it into 1 line-txt file),elif you run it directly from terminal (i.e python summarize.py) you don't need to reform your txt as these txt files.
